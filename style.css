@@ -10,32 +10,39 @@ body {
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
     background-color: #045de9;
-    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+    background-image: -moz-linear-gradient(aqua);
 }
 
-table {
-    border-spacing: 0;
+/*pare przykladow edycji tekstu*/
+p{
+    color: gold;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: line-through;
+    letter-spacing: 2px;
+    word-spacing: 30px;
+    line-height: 200px;
+    text-shadow: 5px 5px 5px floralwhite;
 }
-
-table,
-td,
-th {
-    border: 1px solid black;
+a{
+    color: white;
+    text-decoration:none;
 }
-
-td,
-th {
-    padding: 5px 20px;
+/*ta klasa bedzie z malych liter*/
+.small{
+    text-transform: lowercase;
 }
+/*ta klasa bedzie z duzych liter*/
+.big {
+    text-transform: uppercase;
 
-thead {
-    background-color: tomato;
 }
+/*ta klasa bedzie miala wyrazy zaczynajace sie na duzą litere*/
+.text{
+    text-transform: capitalize;
 
-tbody {
-    background-color: #fff;
-}
-
-tfoot {
-    background-color: royalblue;
 }
