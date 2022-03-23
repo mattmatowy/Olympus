@@ -1,0 +1,29 @@
+/** {*/
+/*    box-sizing: border-box;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+body{
+    background-color: #333;
+    color: #fff;
+    font-size:36px;
+    font-family: 'Comfortaa', cursive;
+
+}
+p{
+    color: lime;
+}
+span{
+    color: tomato;
+}
+image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /*display: block;*/
+    /*margin: 0 auto;*/
+    /*width: 800px;*/
+    /*border-radius: 25px;*/
+}
+

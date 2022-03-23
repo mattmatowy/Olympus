@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0px;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    background-color: #333333;
+    font-size: 36px;
+}
+
+section {
+    margin-top: 200px;
+    margin-bottom: 0px;
+    height: 300px;
+    background-color: #ddd;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    /*position: absolute;*/
+    
+}
+
+.red {
+    background-color: tomato;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    position: fixed;
+}
+
+.blue {
+    background-color: royalblue;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    left: 100px;
+}             
+
+.green {
+    background-color: greenyellow;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    left: 200px;
+}
+
+.gold {
+    background-color: gold;
+    position: relative;
+    top: 200px;
+    right: 900px;
+    left: 1820px;
+    bottom: 500px;
+}
+
+.silver {
+    background-color: silver;
+    position: absolute;
+    top: 300px;
+    right: 900px;
+    left: 1820px;
+    bottom: 400px;
+}
+
+.black {
+background-color: black;
+display: inline-block;
+margin-top: 30px;
+position: relative;
+bottom: 3000px;

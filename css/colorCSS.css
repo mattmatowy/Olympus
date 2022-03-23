@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 80px;
+    font-size: 36px;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #045de9;
+    overflow: hidden;
+    color: white;
+}
+/*nazwy kolorow*/
+/*               RGB 0-255*/
+/*HSL (hue, saturation, lightness)*/
+/*HEX (#RGB)*/
+
+div{
+    border: 5px solid black;
+    width: 100%;
+    height: 500px;
+    background-color: gold;
+}
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    opacity: 0,5;
+    filter: blur(10px);
+}
